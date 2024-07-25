@@ -8,7 +8,7 @@ if not mt5.initialize():
     mt5.shutdown()
 
 # Define the symbol and time frames
-symbol = "ETHUSD"
+symbol = "XAUUSD"
 timeframes = {
     '1H': mt5.TIMEFRAME_H1,
     '30M': mt5.TIMEFRAME_M30,
